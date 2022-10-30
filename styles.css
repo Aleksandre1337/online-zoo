@@ -274,7 +274,7 @@ header nav a:hover {
 
 .section4 .testimonial {
     width: 268px;
-    height: 391px;
+    height: 429px;
     background: #F1F3F2;
     border-radius: 20px;
 }
@@ -375,4 +375,16 @@ footer h2 {
     width: 37px;
     margin-left: 4px;
     position: relative;
-    bottom: 18px;
+    bottom: 18px; }
+
+footer h3 {
+    position: relative;
+    width: 237px;
+    height: 29px;
+    right: 85px;
+    bottom: 200px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
