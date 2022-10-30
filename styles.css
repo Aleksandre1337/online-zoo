@@ -398,7 +398,8 @@ footer .footernav {
     margin: 0;
     padding: 0;
     margin-bottom: 50px;
-    padding-left: 32.6rem;
+    padding-right: 0px;
+    padding-left: 34.6rem;
 }
 
 footer .navli {
@@ -481,18 +482,18 @@ footer h3 {
 }
 
 #facebook {
-    width: 400%;
+    width: 120px;
     height: auto;
 }
 #twitter{
-    width: 330%;
+    width: 110px;
     height: auto;
 }
 #instagram {
-    width: 400%;
+    width: 120px;
     height: auto;
 }
 #youtube {
-    width: 360%;
+    width: 110px;
     height: auto;
 }
