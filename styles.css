@@ -31,6 +31,41 @@ section {
     margin: 0 auto;
 }
 
+.dot {
+    height: 465px;
+    width: 465px;
+    border-radius: 50%;
+    display: inline-block;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    position: absolute;
+    top: 152px;
+    right: 459px;
+  }
+
+.adtext {
+    position: relative;
+    width: 500.31px;
+    height: 400px;
+    bottom: 656px;
+    left: 990px;
+    font-weight: 700;
+    font-size: 95px;
+    line-height: 40%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: -425px;
+    padding: 0;
+}
+.textcontainer {
+    margin: 0;
+    padding: 0;
+}
+section div p span {
+    color: #FFEE2E;
+}
+
+
 header ul {
     list-style: none;
     display: flex;
@@ -43,6 +78,13 @@ header li {
     margin: 0 1.54rem;
 }
 
+header nav {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
 header nav a{
     color: white;
     font-size: 1.25rem;
@@ -51,6 +93,20 @@ header nav a{
 
 header nav a:hover {
     color: white;
+}
+
+.section1buttondiv {
+    width: 298px;
+    height: 54px;
+    border-radius: 25px;
+    margin: 0 auto;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .section2 {
@@ -125,6 +181,14 @@ header nav a:hover {
     text-transform: uppercase;
 }
 
+#about {
+    text-transform: uppercase;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 #designer {
     font-size: 1rem;
     padding-left: 21rem;
@@ -148,14 +212,23 @@ header nav a:hover {
     margin: 0 auto;
     margin-bottom: 100px;
     font-size: 16px;
+    color: #FFFFFF;
 }
 
 .section2buttondiv {
     width: 298px;
     height: 54px;
-    background: #FE9013;
     border-radius: 25px;
     margin: 0 auto;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    color: #FFFFFF;
+}
+
+#watchonline {
+    position: relative;
+    bottom: 156px;
+    left: 1161px;
+    color: #FFFFFF;
 }
 
 .section3 {
@@ -237,6 +310,7 @@ header nav a:hover {
     margin: 0 auto;
     margin-bottom: 100px;
     font-size: 16px;
+    color: #FFFFFF;
 }
 
 .section3buttondiv {
@@ -305,11 +379,12 @@ header nav a:hover {
     margin: 0 auto;
     margin-top: 60px;
     font-size: 16px;
+    color: #FFFFFF;
 }
 
 footer {
     background-color: black;
-    padding-top: 443px;
+    padding-top: 390px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -317,16 +392,16 @@ footer {
     width: 1600px;
 }
 
-footer ul {
+footer .footernav {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
     margin-bottom: 50px;
-    padding-left: 32rem;
+    padding-left: 32.6rem;
 }
 
-footer li {
+footer .navli {
     margin: 0 1.54rem;
     list-style: none;
 }
@@ -335,13 +410,17 @@ footer nav a {
     color: white;
     font-size: 1.25rem;
     text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
 }
 
 footer .mainlogofooter {
     position: relative;
     /* width: 82px; */
     /* height: 52px; */
-    right: 696px;
+    right: 785px;
     bottom: 360px;
     border: 0.5px solid #FFFFFF;
     border-radius: 2px;
@@ -351,11 +430,12 @@ footer button {
     width: 298px;
     height: 54px;
     background: #FE9013;
-    border-radius: 25px;
+    border-radius: 10px;
     position: relative;
     bottom: 248px;
-    right: 823px;
+    right: 908px;
     font-size: 16px;
+    color: #FFFFFF;
 }
 
 footer h2 {
@@ -387,4 +467,32 @@ footer h3 {
     font-size: 16px;
     line-height: 120%;
     color: #FFFFFF;
+}
+
+.social {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    position: relative;
+    right: 1202px;
+    bottom: 70px;
+    list-style: none;
+}
+
+#facebook {
+    width: 400%;
+    height: auto;
+}
+#twitter{
+    width: 330%;
+    height: auto;
+}
+#instagram {
+    width: 400%;
+    height: auto;
+}
+#youtube {
+    width: 360%;
+    height: auto;
 }
