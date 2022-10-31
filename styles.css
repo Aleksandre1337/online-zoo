@@ -21,6 +21,14 @@ header {
     width:1600px;
 }
 
+header nav ul li a:active {
+    color: orange;
+}
+
+#designer:active {
+    color: orange;
+}
+
 .mainlogo {
     border: 1px solid #FFF;
     padding: 4px;
@@ -145,7 +153,10 @@ header nav a:hover {
 }
 
 .section1buttondiv:hover {
-    color:black;
+    background: #E47209;
+}
+.section1buttondiv:active {
+    background: #4B9200;
 }
 
 .section2 {
@@ -264,7 +275,10 @@ header nav a:hover {
     color: #FFFFFF;
 }
 .section2buttondiv button:hover {
-    color: black;
+    background: #E47209;
+}
+.section2buttondiv button:active{
+    background: #4B9200;
 }
 
 #watchonline {
@@ -364,8 +378,12 @@ header nav a:hover {
     margin: 0 auto;
 }
 
-.section3buttondiv:hover{
-    color: black;
+.section3buttondiv button:hover{
+    background: #E47209;
+}
+
+.section3 button:active {
+    background: #4B9200;
 }
 
 .section3 button {
@@ -399,7 +417,7 @@ header nav a:hover {
 
 .section4 .testimonial {
     width: 268px;
-    height: 429px;
+    height: 440px;
     background: #F1F3F2;
     border-radius: 20px;
 }
@@ -449,7 +467,10 @@ header nav a:hover {
 }
 
 .section4 button:hover {
-    color: black;
+    background: #E47209;
+}
+.section4 button:active {
+    background: #4B9200;
 }
 
 footer {
@@ -475,6 +496,10 @@ footer .footernav {
 footer .navli {
     margin: 0 1.54rem;
     list-style: none;
+}
+
+footer nav ul li a:active {
+    color: orange;
 }
 
 footer nav a {
@@ -509,8 +534,11 @@ footer button {
     color: #FFFFFF;
 }
 
-footer button:hover {
-    color: black;
+.footerbutton button:hover {
+    background: #E47209;
+}
+.footerbutton button:active {
+    background: #4B9200;
 }
 
 footer h2 {
@@ -574,6 +602,7 @@ footer h3 {
     height: auto;
 }
 
+
 #fname {
     width: 285px;
     height: 42px;
@@ -596,5 +625,10 @@ footer h3 {
     height: 42px;
     right: 321px;
     background: #F1F3F2;
+    color: black;
+}
+
+.submit:hover {
     color: green;
 }
+
