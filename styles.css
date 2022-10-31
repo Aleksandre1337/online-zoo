@@ -42,6 +42,11 @@ section {
     right: 459px;
   }
 
+.ball {
+    position: relative;
+    bottom: 839px;
+    left: 190px;
+}
 .adtext {
     position: relative;
     width: 500.31px;
