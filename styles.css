@@ -47,6 +47,7 @@ section {
     bottom: 839px;
     left: 190px;
 }
+
 .adtext {
     position: relative;
     width: 500.31px;
@@ -70,6 +71,24 @@ section div p span {
     color: #FFEE2E;
 }
 
+.divicon {
+    width: 33px;
+    height: 37px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    bottom: 35px;
+    left: 348px;
+}
+
+.animals {
+    margin-bottom: -30px;
+}
+
+.animals p {
+    padding-left: 5px;
+}
 
 header ul {
     list-style: none;
@@ -98,6 +117,17 @@ header nav a{
 
 header nav a:hover {
     color: white;
+}
+
+#flower {
+    position: absolute;
+    width: 293px;
+    height: 605px;
+    left: 1400px;
+    top: 792px;
+
+    background: url(flower_foto.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .section1buttondiv {
@@ -143,10 +173,11 @@ header nav a:hover {
     line-height: 120%;
 }
 
-.section2main1 div img {
+.section2main1 div {
     width: 609px;
     height: 403px;
 }
+
 
 .section2main2 {
     display: grid;
@@ -165,8 +196,8 @@ header nav a:hover {
     object-fit: fill;
     border-radius: 6px;
     flex-shrink: 0;
-    min-width: 100%;
-    min-height: 85%;
+    /* min-width: 100%;
+    min-height: 85%; */
 }
 
 .collage1 {
@@ -404,7 +435,7 @@ footer .footernav {
     padding: 0;
     margin-bottom: 50px;
     padding-right: 0px;
-    padding-left: 34.6rem;
+    padding-left: 43rem;
 }
 
 footer .navli {
@@ -501,4 +532,29 @@ footer h3 {
 #youtube {
     width: 110px;
     height: auto;
+}
+
+#fname {
+    width: 285px;
+    height: 42px;
+    border-radius: 2px;
+    background: #111115;
+    color: white;
+    position: relative;
+    bottom: 270px;
+    right: 334px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.submit {
+    position: relative;
+    bottom: 270px;
+    width: 129px;
+    height: 42px;
+    right: 321px;
+    background: #F1F3F2;
+    color: green;
 }
