@@ -144,6 +144,10 @@ header nav a:hover {
     color: #FFFFFF;
 }
 
+.section1buttondiv:hover {
+    color:black;
+}
+
 .section2 {
     padding: 140px 220px 100px 140px;
 }
@@ -259,6 +263,9 @@ header nav a:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     color: #FFFFFF;
 }
+.section2buttondiv button:hover {
+    color: black;
+}
 
 #watchonline {
     position: relative;
@@ -357,6 +364,14 @@ header nav a:hover {
     margin: 0 auto;
 }
 
+.section3buttondiv:hover{
+    color: black;
+}
+
+.section3 button {
+    color: black;
+}
+
 .section4 {
     background-color: #ffffff;
     padding: 69px 220px 100px 220px;
@@ -398,6 +413,21 @@ header nav a:hover {
     margin-bottom: -15px;
 }
 
+.testimonial h3 {
+    color: #BDBDBD;
+    font-weight: lighter;
+    position: relative;
+    bottom: 37px;
+    left: 50px;
+}
+
+.testimonial p {
+    padding: 15px;
+    position: relative;
+    bottom: 48px;
+    color: #767474;
+}
+
 .section4 .customer {
     padding-top: 11px;
     margin-left: 51px;
@@ -416,6 +446,10 @@ header nav a:hover {
     margin-top: 60px;
     font-size: 16px;
     color: #FFFFFF;
+}
+
+.section4 button:hover {
+    color: black;
 }
 
 footer {
@@ -475,6 +509,10 @@ footer button {
     color: #FFFFFF;
 }
 
+footer button:hover {
+    color: black;
+}
+
 footer h2 {
     position: relative;
     width: 237px;
@@ -492,7 +530,9 @@ footer h2 {
     width: 37px;
     margin-left: 4px;
     position: relative;
-    bottom: 18px; }
+    bottom: 28px;
+    left: 5px;
+}
 
 footer h3 {
     position: relative;
