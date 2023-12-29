@@ -1,4 +1,4 @@
-# Frontend Mentor - Online Zoo Landing Page
+# EPAM & RS School - Online Zoo Landing Page
 
 This is a solution to the **Online Zoo Landing Page**. This task was a part of a Front-End competition hosted by RS School in collaboration with EPAM.
 
